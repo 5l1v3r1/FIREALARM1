@@ -4,7 +4,7 @@ Use of Micro-controller MC68HC11F1 with ported Visual Studio C computer programm
 
 | LANGUAGE | FILENAME | MD5 Hash |
 |------    |------    | -------  |
-| ANSI C | FireAlarm.c | |
+| C | FireAlarm.c | |
 
 ## Micro-controller MC68HC11F1
 
