@@ -687,7 +687,7 @@ unsigned char ParralPort(struct Alarm Zone[])
 /* New trigger switched or the last remaining trigger has been turned off but still needs to be removed from the display carry on  */
 /* ******************************************************************************************************************************* */
 
-	Bits[0] = (Data & (1 << 0)) != 0;/* Split byte variable ‘Data’ into a 8 bits where ‘1’ = triggered on & ‘0’ = not triggered*/
+	Bits[0] = (Data & (1 << 0)) != 0;/* Split byte variable Â‘DataÂ’ into a 8 bits where Â‘1Â’ = triggered on & Â‘0Â’ = not triggered*/
 	Bits[1] = (Data & (1 << 1)) != 0;
 	Bits[2] = (Data & (1 << 2)) != 0;
 	Bits[3] = (Data & (1 << 3)) != 0;
@@ -827,7 +827,7 @@ unsigned int Write_Book(struct Alarm Zone[], const unsigned int ZCode_0, const u
 	Zone[0].Line[0]++;					/* Increment Zone 1 log book entry by 1		*/
 	if (Zone[0].Line[0] == 100) { Zone[0].Line[0] = 0; }	/* Check 100 entries limit & reset if hit	*/
 	Zone[1].Line[0]++;					/* Increment Zone 2 log book entry by 1		*/
-	if (Zone[1].Line[0] == 100) { Zone[1].Line[0] = 0; }	* Check 100 entries limit & reset if hit	*/
+	if (Zone[1].Line[0] == 100) { Zone[1].Line[0] = 0; }	/* Check 100 entries limit & reset if hit	*/
 	Zone[2].Line[0]++;					/* Increment Zone 3 log book entry by 1		*/
 	if (Zone[2].Line[0] == 100) { Zone[2].Line[0] = 0; }	/* Check 100 entries limit & reset if hit	*/
 	return (0);
