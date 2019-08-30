@@ -8,7 +8,7 @@
 | PDF      | Fire Alarm Project.pdf | 0dfdc182bf1e704ff4c4226a6f9e829d |
 
 - [x] Data sheet available here - https://www.nxp.com/docs/en/data-sheet/MC68HC11F1.pdf
-- [x] Purchase micro-controller chip from Motorola here - https://www.digipart.com/part/MC68HC11F1
+- [x] Motorola micro-controller chip available here - https://www.digipart.com/part/MC68HC11F1
 
 ### MICROCONTROLLER MC68HC11F1
 
